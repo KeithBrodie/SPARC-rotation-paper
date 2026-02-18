@@ -26,7 +26,7 @@ This paper derives the MOND interpolation function and the value of a₀ from fi
 
 We combine these with a single physical observation: the observable universe has a finite boundary. The Hubble horizon at $R_H = c/H_0$ is not merely a distant feature — it is a second causal horizon with its own thermodynamic properties, temperature $T_H = \hbar c H_0/(2\pi k_B)$, and its own entanglement with the vacuum. When two horizons compete for entanglement with the same vacuum modes, entanglement monogamy [8] requires sharing. The fraction of entropy available to the Rindler horizon is determined by the relative temperatures and the geometry of the competition. The result is the MOND interpolation function.
 
-Several authors have derived MOND-like phenomenology from horizon thermodynamics, notably Verlinde [9,10], Klinkhamer [11,12], Sheykhi [13–15], and Rostami et al. [16]. All modify the *gravitational force law* — they change what gravity does. Our derivation modifies *inertia* — it changes how matter responds. Modified gravity and modified inertia are observationally distinguishable [17] and make different predictions for rotation curve shapes [18]. Our result connects to McCulloch's Quantized Inertia programme [19–23], which proposed that the Hubble horizon modifies inertia, but whose original formulation has been criticized for incorrect mode-counting [24]. In [31], we showed that QI emerges as a boundary correction to Jacobson's framework; the present paper derives the correct functional form and numerical value of a₀.
+Several authors have derived MOND-like phenomenology from horizon thermodynamics, notably Verlinde [9,10], Klinkhamer [11,12], Sheykhi [13–15], and Rostami et al. [16]. All modify the *gravitational force law* — they change what gravity does. Our derivation modifies *inertia* — it changes how matter responds. Modified gravity and modified inertia are observationally distinguishable [17] and make different predictions for rotation curve shapes [18]. Our result builds on McCulloch's Quantized Inertia programme [19–23], which identified the Hubble horizon as the origin of modified inertia. In [31], we showed that QI emerges as a boundary correction to Jacobson's framework; the present paper derives the functional form and numerical value of a₀.
 
 The structure of the paper is as follows. Section II reproduces Jacobson's derivation, identifying the equilibrium assumption we will modify. Section III presents the core calculation: the two-horizon entropy sharing model and its geometric factor. Section IV propagates the modification through Jacobson's framework to derive the modified inertia equation. Section V tests the prediction against the SPARC RAR. Section VI discusses the relation to prior work. Section VII addresses physical interpretation, predictions, and limitations. Section VIII concludes.
 
@@ -341,13 +341,13 @@ Our work differs from all of these in three respects:
 
 ### B. McCulloch's Quantized Inertia
 
-McCulloch [19–23] proposed that the Hubble horizon modifies inertia by truncating the Unruh radiation spectrum. His key insight — that inertia is a horizon effect and the Hubble scale sets a₀ — is correct and is the physical content of our Eq. (15). However, his quantitative formulation $m_i = m_g(1 - 2c^2/|a|\Theta)$ differs from ours in two ways:
+McCulloch [19–23] proposed that the Hubble horizon modifies inertia by truncating the Unruh radiation spectrum. His key insight — that inertia is a horizon effect and the Hubble scale sets a₀ — is the physical content of our Eq. (15). His quantitative formulation $m_i = m_g(1 - 2c^2/|a|\Theta)$ differs from ours in two respects:
 
-1. **Functional form.** McCulloch's formula gives $m_i$ that decreases linearly in $1/a$ and goes to zero at $a = 2c^2/\Theta$, creating an acceleration floor. Our $f(a) = a/(a + a_0)$ decreases hyperbolically, approaching zero only asymptotically. The SPARC data decisively favor the hyperbolic form: McCulloch's formula gives σ > 1 dex [24], while ours gives 0.133 dex.
+1. **Functional form.** McCulloch's formula gives $m_i$ that decreases linearly in $1/a$ and goes to zero at $a = 2c^2/\Theta$. Our $f(a) = a/(a + a_0)$ decreases hyperbolically, approaching zero only asymptotically. The SPARC data favor the hyperbolic form [24].
 
-2. **The mode-counting.** McCulloch substitutes only the peak wavelength into the energy density, whereas the correct calculation requires integrating over the full spectrum [24]. Our derivation avoids this issue entirely by working with temperatures and entropy rather than individual mode energies.
+2. **Spectral treatment.** McCulloch works with the peak wavelength of the Unruh spectrum, whereas we work with temperatures and entropy, integrating over all modes. This sidesteps the mode-counting questions raised by Renda [24].
 
-Our result vindicates McCulloch's physical intuition while replacing his specific calculation with one that is both more rigorous (grounded in Jacobson's framework) and more successful (matching SPARC to the noise floor).
+Our result confirms McCulloch's physical picture — inertia as a horizon effect, modified at the Hubble scale — and embeds it in Jacobson's thermodynamic framework, yielding an interpolation function that matches SPARC to the noise floor.
 
 ---
 
