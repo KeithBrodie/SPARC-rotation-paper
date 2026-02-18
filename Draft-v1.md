@@ -152,7 +152,7 @@ The two competing entanglement structures have different geometries. The Unruh e
 
 Because these two entanglement structures have different geometries — planar and spherical — their competition for the same vacuum modes is angle-dependent. This angular structure determines $T_{H,\text{eff}}$ in Eq. (11).
 
-**The backward hemisphere.** The Unruh thermal state arises from tracing over modes behind the observer — the half-space opposite to the acceleration. The Hubble horizon's entanglement competes with this thermal state only from the backward hemisphere (θ > π/2 from +ẑ), where modes propagate into the region that the Unruh tracing operation integrates out.
+**The backward hemisphere.** The Unruh thermal state arises from tracing over modes behind the observer — the half-space opposite to the acceleration. The Hubble horizon's entanglement competes with this thermal state only from the backward hemisphere (θ > π/2 from +ẑ), where modes propagate into the region that the Unruh tracing operation integrates out. Forward-hemisphere modes (θ < π/2) are on the observer's side of the Rindler partition and do not contribute to the Unruh entropy; the Hubble horizon's entanglement with those modes is irrelevant.
 
 **The mode overlap.** At polar angle θ from ẑ, the Hubble horizon's entanglement is carried by radial modes $\hat{k}_r$, while the Unruh entanglement is carried by modes along ẑ. The overlap between these mode directions is $\hat{k}_r \cdot \hat{z} = \cos\theta$. Entanglement sharing scales as the square of the mode overlap — |cosθ|² — because entanglement entropy involves squared amplitudes, in the same way that transition probabilities scale as |⟨ψ|φ⟩|². The competition strength at angle θ is therefore cos²θ.
 
@@ -196,7 +196,7 @@ Evaluating:
 a_0 = \frac{cH_0}{6} = \frac{6.548 \times 10^{-10}}{6} = 1.09 \times 10^{-10} \text{ m/s}^2
 ```
 
-Milgrom's empirical value is $a_0^{\text{MOND}} = 1.2 \times 10^{-10}$ m/s². The prediction is 9% below the empirical value — derived from the Hubble constant, the speed of light, and the integer 6, with no free parameters.
+Milgrom's empirical value is $a_0^{\text{MOND}} = 1.2 \times 10^{-10}$ m/s². The prediction is 9% below the empirical value — derived from the Hubble constant, the speed of light, and the integer 6, with no free parameters. (The discrepancy is sensitive to H₀: using $H_0 = 73$ km/s/Mpc gives $a_0 = 1.16 \times 10^{-10}$ m/s², only 3% below Milgrom.)
 
 The function $f(a)$ has the required limiting behavior:
 - **High acceleration** (a ≫ a₀): f → 1. Full entropy, standard inertia, Jacobson's Einstein equations hold.
