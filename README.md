@@ -1,6 +1,6 @@
 # The Radial Acceleration Relation from Two-Horizon Entropy Sharing with Zero Free Parameters
 
-**Author:** Keith Brodie (2026)
+**Author:** Keith Brodie (2026)  https://zenodo.org/records/18677307
 
 ## Summary
 
