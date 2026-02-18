@@ -172,8 +172,6 @@ The factor 1/6 decomposes as:
 - **1/2** from restricting to the backward hemisphere (the Unruh trace direction)
 - **1/3** from the cos²θ mode overlap (the mean of cos² over a hemisphere)
 
-![Mode overlap geometry](fig_geometry.png)
-*Figure 1: Competition strength as a function of angle θ from the acceleration axis. The cos²θ mode overlap (blue) determines the angular dependence of entanglement sharing. Only the backward hemisphere (shaded) contributes.*
 
 **Remark on ε-independence.** At low accelerations (ε ≥ 1), there is no Rindler horizon — the would-be surface at $c^2/a$ lies beyond the Hubble radius and cannot form. But the acceleration still exists, and it still defines a preferred direction. The mode decomposition in the accelerating frame has planar symmetry (perpendicular to ẑ) as a property of the acceleration itself, not of a horizon surface. The geometric factor depends on this planar symmetry of the accelerating frame competing with the spherical symmetry of the Hubble horizon — a relationship between two geometries that is set by their shapes, not by ε. The ε-dependence of the competition enters separately through the temperature ratio $T_R/T_H$ in Eq. (11), which governs the competition's *strength*. The angular structure (1/6) governs its *geometry*. These are independent: one is set by the acceleration magnitude, the other by the symmetries of the competing entanglement structures.
 
@@ -207,7 +205,7 @@ The function $f(a)$ has the required limiting behavior:
 - **f > 0 always**: the sharing function is strictly positive — entanglement is suppressed, never eliminated. This distinguishes the horizon sharing model from wall-based truncation models where f → 0 at low accelerations.
 
 ![Inertia modification function](fig_f_curves.png)
-*Figure 2: The inertia modification function f(a). Blue: this work, a/(a + cH₀/6), zero free parameters. Red dashed: MOND with fitted a₀ = 1.2 × 10⁻¹⁰. Gray dotted: bare cH₀ with no geometric factor.*
+*Figure 1: The inertia modification function f(a). Blue: this work, a/(a + cH₀/6), zero free parameters. Red dashed: MOND with fitted a₀ = 1.2 × 10⁻¹⁰. Gray dotted: bare cH₀ with no geometric factor.*
 
 ---
 
@@ -301,7 +299,7 @@ The mean residual of +0.005 dex indicates our predicted a₀ is slightly below t
 The bare model (a₀ = cH₀, no geometric factor) fails decisively: the mean residual of −0.296 dex corresponds to systematic overprediction of $g_\text{obs}$ by a factor of ~2, confirming that the geometric factor of 6 is essential.
 
 ![SPARC Radial Acceleration Relation](fig_sparc_rar.png)
-*Figure 3: The SPARC Radial Acceleration Relation. Gray: 2,693 data points from 153 galaxies. Blue: this work (0 free parameters, σ = 0.133 dex). Red dashed: MOND with fitted a₀ (σ = 0.133 dex). Dotted: Newtonian (g_obs = g_bar).*
+*Figure 2: The SPARC Radial Acceleration Relation. Gray: 2,693 data points from 153 galaxies. Blue: this work (0 free parameters, σ = 0.133 dex). Red dashed: MOND with fitted a₀ (σ = 0.133 dex). Dotted: Newtonian (g_obs = g_bar).*
 
 **Table 2: Regime analysis**
 
@@ -312,7 +310,7 @@ The bare model (a₀ = cH₀, no geometric factor) fails decisively: the mean re
 | Newtonian (g > 30a₀) | > 3.6 × 10⁻⁹ | 10 | 0.127 | 0.131 |
 
 ![Residual distributions](fig_residuals.png)
-*Figure 4: Residual distributions for this work (blue, 0 parameters) and fitted MOND (red, 1 parameter) against SPARC data.*
+*Figure 3: Residual distributions for this work (blue, 0 parameters) and fitted MOND (red, 1 parameter) against SPARC data.*
 
 The prediction performs uniformly across all acceleration regimes. In the transition region — where the functional form of f(a) matters most — our model achieves marginally smaller scatter (0.091 vs. 0.098 dex), though the difference is not statistically significant. The deep-MOND regime, which contains 86% of the data and drives the overall σ, is matched to within 0.001 dex.
 
@@ -351,10 +349,6 @@ McCulloch [19–23] proposed that the Hubble horizon modifies inertia by truncat
 2. **The mode-counting.** McCulloch substitutes only the peak wavelength into the energy density, whereas the correct calculation requires integrating over the full spectrum [24]. Our derivation avoids this issue entirely by working with temperatures and entropy rather than individual mode energies.
 
 Our result vindicates McCulloch's physical intuition while replacing his specific calculation with one that is both more rigorous (grounded in Jacobson's framework) and more successful (matching SPARC to the noise floor).
-
-### C. The Brodie (2026) JacobsonQI Paper
-
-In our earlier paper [31], we showed that QI emerges from Jacobson's framework when a finite boundary correction is applied to the entropy-area relation. That paper assumed a quadratic correction f(a) = 1 − (cH₀/a)² based on Casimir energy scaling, which produces the correct acceleration scale (a₀ ~ cH₀) but the wrong functional form (σ = 1.18 dex against SPARC). The present paper replaces the assumed functional form with a derived one: the cos²θ geometric integral over the backward hemisphere yields f(a) = a/(a + cH₀/6), which matches SPARC at the noise floor. The progression from "correct scale, wrong shape" to "correct scale, correct shape, correct value" represents the resolution of the key open problem identified in that paper.
 
 ---
 
