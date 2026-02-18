@@ -26,7 +26,6 @@ Tested against the SPARC Radial Acceleration Relation (2,693 data points, 153 ga
 - `two_horizon_sparc.py` — Complete numerical analysis script (reproduces all tables and figures)
 - `data/RAR.mrt` — SPARC RAR dataset (McGaugh, Lelli & Schombert 2016)
 - `fig_f_curves.png` — Inertia modification function f(a)
-- `fig_geometry.png` — Mode overlap geometry (cos²θ)
 - `fig_sparc_rar.png` — SPARC RAR with predictions
 - `fig_residuals.png` — Residual histograms
 
