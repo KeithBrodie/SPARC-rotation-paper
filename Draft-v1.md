@@ -40,19 +40,25 @@ We reproduce the essential steps of Jacobson's argument [6] to establish the fra
 
 Consider any point P in spacetime. An observer undergoing uniform acceleration a in the neighborhood of P perceives a Rindler horizon — a null surface beyond which signals cannot reach the observer — at proper distance
 
-$$d_R = \frac{c^2}{a} \tag{1}$$
+```math
+d_R = \frac{c^2}{a} \qquad \text{(1)}
+```
 
 behind the direction of acceleration. This horizon has thermodynamic properties.
 
 **Temperature.** By the Unruh effect [7], the accelerating observer perceives the vacuum as a thermal bath at temperature
 
-$$T_R = \frac{\hbar a}{2\pi c k_B} \tag{2}$$
+```math
+T_R = \frac{\hbar a}{2\pi c k_B} \qquad \text{(2)}
+```
 
 This thermal character is not a property of the matter or radiation present — it is a property of the vacuum state as perceived across the Rindler horizon. The thermal spectrum is exactly Planckian.
 
 **Entropy.** By the Bekenstein-Hawking relation [25,26], and as elaborated in 't Hooft's analysis of horizon degrees of freedom [39], the entropy associated with a horizon of area A is
 
-$$S = \frac{k_B A}{4 \ell_P^2} \tag{3}$$
+```math
+S = \frac{k_B A}{4 \ell_P^2} \qquad \text{(3)}
+```
 
 where $\ell_P = \sqrt{\hbar G/c^3}$ is the Planck length. This relation, originally derived for black holes, extends to all causal horizons [27].
 
@@ -60,11 +66,15 @@ where $\ell_P = \sqrt{\hbar G/c^3}$ is the Planck length. This relation, origina
 
 Jacobson applies the Clausius relation
 
-$$\delta Q = T \, dS \tag{4}$$
+```math
+\delta Q = T \, dS \qquad \text{(4)}
+```
 
 to infinitesimal patches of the local Rindler horizon. The heat flow δQ is identified with the boost energy flux across the horizon:
 
-$$\delta Q = T_{ab} \, k^a \, d\Sigma^b \tag{5}$$
+```math
+\delta Q = T_{ab} \, k^a \, d\Sigma^b \qquad \text{(5)}
+```
 
 where $T_{ab}$ is the stress-energy tensor, $k^a$ is the approximate boost Killing vector, and $d\Sigma^b$ is the horizon area element.
 
@@ -72,11 +82,15 @@ where $T_{ab}$ is the stress-energy tensor, $k^a$ is the approximate boost Killi
 
 The change in horizon area is governed by the Raychaudhuri equation for null geodesic congruences:
 
-$$dS = \frac{k_B}{4\ell_P^2} \, dA = -\frac{k_B}{4\ell_P^2} \, R_{ab} \, k^a k^b \, A \, d\lambda \tag{6}$$
+```math
+dS = \frac{k_B}{4\ell_P^2} \, dA = -\frac{k_B}{4\ell_P^2} \, R_{ab} \, k^a k^b \, A \, d\lambda \qquad \text{(6)}
+```
 
 where λ is the affine parameter and $R_{ab}$ is the Ricci tensor. Substituting the Unruh temperature (2), the boost energy flux (5), and the entropy change (6) into the Clausius relation (4), and requiring consistency across all boost directions at every spacetime point:
 
-$$R_{ab} - \frac{1}{2} R \, g_{ab} + \Lambda \, g_{ab} = \frac{8\pi G}{c^4} \, T_{ab} \tag{7}$$
+```math
+R_{ab} - \frac{1}{2} R \, g_{ab} + \Lambda \, g_{ab} = \frac{8\pi G}{c^4} \, T_{ab} \qquad \text{(7)}
+```
 
 These are the Einstein field equations. The cosmological constant Λ appears as an integration constant.
 
@@ -100,15 +114,21 @@ An accelerating observer inhabits a geometry defined by two horizons:
 
 2. **The Hubble horizon** — a sphere of radius
 
-$$R_H = \frac{c}{H_0} \approx 1.3 \times 10^{26} \text{ m} \tag{8}$$
+```math
+R_H = \frac{c}{H_0} \approx 1.3 \times 10^{26} \text{ m} \qquad \text{(8)}
+```
 
 centered on the observer, defining the boundary of the causally connected universe. This horizon has its own thermodynamic character at the Gibbons-Hawking temperature [28]
 
-$$T_H = \frac{\hbar c H_0}{2\pi k_B} \tag{9}$$
+```math
+T_H = \frac{\hbar c H_0}{2\pi k_B} \qquad \text{(9)}
+```
 
 The ratio of the Rindler distance to the Hubble radius defines the dimensionless parameter
 
-$$\varepsilon = \frac{d_R}{R_H} = \frac{c^2/a}{c/H_0} = \frac{cH_0}{a} \tag{10}$$
+```math
+\varepsilon = \frac{d_R}{R_H} = \frac{c^2/a}{c/H_0} = \frac{cH_0}{a} \qquad \text{(10)}
+```
 
 At high accelerations (a ≫ cH₀), ε ≪ 1: the Rindler horizon is nearby and the Hubble horizon is irrelevant. At low accelerations (a ~ cH₀), ε ~ 1: the two horizons are comparable in scale. The galaxy dynamics regime (a ~ 10⁻¹⁰ m/s²) corresponds to ε ~ 1–10, precisely where the two-horizon competition matters.
 
@@ -120,7 +140,9 @@ When the Hubble horizon is present, both horizons are entangled with the same va
 
 The partition follows from thermodynamic equilibrium. Consider a vacuum mode at frequency Ω. The Rindler horizon attributes temperature $T_R$ to this mode; the Hubble horizon attributes temperature $T_H$. In thermal equilibrium, entanglement distributes in proportion to temperature — a hotter horizon claims more entanglement per mode because it thermalizes more strongly. The fraction of entanglement available to the Rindler horizon is therefore
 
-$$f = \frac{T_R}{T_R + T_{H,\text{eff}}} \tag{11}$$
+```math
+f = \frac{T_R}{T_R + T_{H,\text{eff}}} \qquad \text{(11)}
+```
 
 where $T_{H,\text{eff}}$ is the effective Hubble temperature as experienced at the Rindler horizon. This is not simply $T_H$, because the two entanglement structures have different geometries — planar and spherical — producing angle-dependent competition. We now compute the geometric factor.
 
@@ -136,11 +158,15 @@ Because these two entanglement structures have different geometries — planar a
 
 The effective Hubble temperature is
 
-$$T_{H,\text{eff}} = T_H \times \frac{1}{4\pi}\int_{\text{backward}} \cos^2\theta \, d\Omega \tag{12}$$
+```math
+T_{H,\text{eff}} = T_H \times \frac{1}{4\pi}\int_{\text{backward}} \cos^2\theta \, d\Omega \qquad \text{(12)}
+```
 
 Computing the integral over the backward hemisphere (θ from π/2 to π):
 
-$$\frac{1}{4\pi}\int_{\text{backward}} \cos^2\theta \, d\Omega = \frac{2\pi}{4\pi}\int_{\pi/2}^{\pi} \cos^2\theta \, \sin\theta \, d\theta = \frac{1}{2}\int_{-1}^{0} u^2 \, du = \frac{1}{2} \cdot \frac{1}{3} = \frac{1}{6} \tag{13}$$
+```math
+\frac{1}{4\pi}\int_{\text{backward}} \cos^2\theta \, d\Omega = \frac{2\pi}{4\pi}\int_{\pi/2}^{\pi} \cos^2\theta \, \sin\theta \, d\theta = \frac{1}{2}\int_{-1}^{0} u^2 \, du = \frac{1}{2} \cdot \frac{1}{3} = \frac{1}{6} \qquad \text{(13)}
+```
 
 The factor 1/6 decomposes as:
 - **1/2** from restricting to the backward hemisphere (the Unruh trace direction)
@@ -157,15 +183,21 @@ The factor 1/6 decomposes as:
 
 Substituting $T_R = \hbar a/(2\pi c k_B)$, $T_H = \hbar c H_0/(2\pi k_B)$, and $T_{H,\text{eff}} = T_H/6$ into Eq. (11):
 
-$$f(a) = \frac{T_R}{T_R + T_H/6} = \frac{\hbar a / (2\pi c k_B)}{\hbar a / (2\pi c k_B) + \hbar c H_0 / (2\pi k_B \cdot 6)} = \frac{a}{a + cH_0/6} \tag{14}$$
+```math
+f(a) = \frac{T_R}{T_R + T_H/6} = \frac{\hbar a / (2\pi c k_B)}{\hbar a / (2\pi c k_B) + \hbar c H_0 / (2\pi k_B \cdot 6)} = \frac{a}{a + cH_0/6} \qquad \text{(14)}
+```
 
 This can be written as
 
-$$\boxed{f(a) = \frac{a}{a + a_0}}, \qquad a_0 \equiv \frac{cH_0}{6} \tag{15}$$
+```math
+\boxed{f(a) = \frac{a}{a + a_0}}, \qquad a_0 \equiv \frac{cH_0}{6} \qquad \text{(15)}
+```
 
 Evaluating:
 
-$$a_0 = \frac{cH_0}{6} = \frac{6.548 \times 10^{-10}}{6} = 1.09 \times 10^{-10} \text{ m/s}^2$$
+```math
+a_0 = \frac{cH_0}{6} = \frac{6.548 \times 10^{-10}}{6} = 1.09 \times 10^{-10} \text{ m/s}^2
+```
 
 Milgrom's empirical value is $a_0^{\text{MOND}} = 1.2 \times 10^{-10}$ m/s². The prediction is 9% below the empirical value — derived from the Hubble constant, the speed of light, and the integer 6, with no free parameters.
 
@@ -185,11 +217,15 @@ The function $f(a)$ has the required limiting behavior:
 
 In Jacobson's derivation, the Clausius relation δQ = TdS produces the Einstein equations when S = A/4 holds at every horizon patch. With the entropy sharing fraction f(a), the effective entropy is reduced:
 
-$$dS_{\text{eff}} = f(a) \, dS = f(a) \cdot \frac{k_B}{4\ell_P^2} \, dA \tag{16}$$
+```math
+dS_{\text{eff}} = f(a) \, dS = f(a) \cdot \frac{k_B}{4\ell_P^2} \, dA \qquad \text{(16)}
+```
 
 The modified Clausius relation becomes
 
-$$\delta Q = T_R \, dS_{\text{eff}} = T_R \cdot f(a) \cdot \frac{k_B}{4\ell_P^2} \, dA \tag{17}$$
+```math
+\delta Q = T_R \, dS_{\text{eff}} = T_R \cdot f(a) \cdot \frac{k_B}{4\ell_P^2} \, dA \qquad \text{(17)}
+```
 
 The correction factor f(a) appears as a scalar multiplier on the entropy change. Since f depends only on the magnitude of the acceleration (a = |a|), it is a scalar field over spacetime. In the non-relativistic limit that governs galaxy dynamics, a is the unambiguous coordinate acceleration.
 
@@ -197,17 +233,23 @@ The correction factor f(a) appears as a scalar multiplier on the entropy change.
 
 In the non-relativistic limit, Jacobson's framework reduces to Newtonian gravity: the Poisson equation for the gravitational potential and F = ma for test particle dynamics. With the modified entropy, the relationship between gravitational source (baryonic mass) and dynamical response (acceleration) is altered by f(a). For a test mass $m_g$ in a gravitational field:
 
-$$F_{\text{grav}} = m_g \cdot a \cdot f(a) \tag{18}$$
+```math
+F_{\text{grav}} = m_g \cdot a \cdot f(a) \qquad \text{(18)}
+```
 
 or equivalently, defining the effective inertial mass $m_i(a) = m_g \cdot f(a)$:
 
-$$g_{\text{bar}} = f(g_{\text{obs}}) \cdot g_{\text{obs}} = \frac{g_{\text{obs}}^2}{g_{\text{obs}} + a_0} \tag{19}$$
+```math
+g_{\text{bar}} = f(g_{\text{obs}}) \cdot g_{\text{obs}} = \frac{g_{\text{obs}}^2}{g_{\text{obs}} + a_0} \qquad \text{(19)}
+```
 
 where $g_\text{bar} = GM/r^2$ is the baryonic Newtonian acceleration and $g_\text{obs} = v^2/r$ is the observed centripetal acceleration. Equation (19) is the prediction we test against SPARC data: given $g_\text{bar}$ for each data point, solve for $g_\text{obs}$.
 
 Inverting Eq. (19):
 
-$$g_{\text{obs}} = \frac{1}{2}\left(g_{\text{bar}} + \sqrt{g_{\text{bar}}^2 + 4 \, g_{\text{bar}} \, a_0}\right)$$
+```math
+g_{\text{obs}} = \frac{1}{2}\left(g_{\text{bar}} + \sqrt{g_{\text{bar}}^2 + 4 \, g_{\text{bar}} \, a_0}\right)
+```
 
 which is algebraically identical to the standard MOND interpolation function [4] with the "simple" interpolation $\nu(x) = 1/(1 - 1/(1+x))$ where $x = g_\text{bar}/a_0$, but derived here from horizon thermodynamics rather than postulated.
 
@@ -230,7 +272,9 @@ Each data point provides ($\log_{10} g_\text{bar}$, $\log_{10} g_\text{obs}$). T
 
 For each measured $g_\text{bar}$, we compute the predicted $g_\text{obs}$ by solving Eq. (19) with a₀ = cH₀/6 = 1.09 × 10⁻¹⁰ m/s². The residuals are defined as
 
-$$\Delta = \log_{10}(g_{\text{obs,data}}) - \log_{10}(g_{\text{obs,predicted}})$$
+```math
+\Delta = \log_{10}(g_{\text{obs,data}}) - \log_{10}(g_{\text{obs,predicted}})
+```
 
 We compare four models:
 
@@ -330,7 +374,9 @@ The coincidence a₀ ~ cH₀ has been called the "most striking feature of MOND"
 
 **Prediction 1: a₀ evolves with H(z).** Since a₀ = cH₀/6 and H₀ is the present-day value of H(z), the MOND scale should track cosmic expansion:
 
-$$a_0(z) = \frac{c \, H(z)}{6}$$
+```math
+a_0(z) = \frac{c \, H(z)}{6}
+```
 
 At z = 2, H(z)/H₀ ≈ 3, giving a₀(z=2) ≈ 3.3 × 10⁻¹⁰ m/s² — nearly three times the local value. The transition to modified dynamics occurs at higher accelerations and smaller radii in the early universe. This is a testable prediction that distinguishes our framework from fixed-a₀ MOND. Preliminary evidence for a time-varying MOND scale exists at z ~ 2 [23].
 
@@ -340,7 +386,9 @@ At z = 2, H(z)/H₀ ≈ 3, giving a₀(z=2) ≈ 3.3 × 10⁻¹⁰ m/s² — near
 
 **Prediction 4: Deep-MOND Tully-Fisher.** In the deep-MOND regime ($g_\text{obs} \ll a_0$), Eq. (19) gives $g_\text{bar} \approx g_\text{obs}^2/a_0$. For circular orbits ($g_\text{obs} = v^2/r$, $g_\text{bar} = GM/r^2$):
 
-$$v^4 = G M a_0 = \frac{G M c H_0}{6}$$
+```math
+v^4 = G M a_0 = \frac{G M c H_0}{6}
+```
 
 This is the baryonic Tully-Fisher relation [35,36] with the predicted normalization. Recent weak lensing measurements confirm that rotation curves remain flat to ~1 Mpc [47], a natural prediction of MOND-like frameworks. The v⁴ ∝ M scaling and the zero intrinsic scatter are geometric consequences of the framework.
 
